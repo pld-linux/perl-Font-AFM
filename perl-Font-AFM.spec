@@ -1,12 +1,13 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Font
 %define	pnam	AFM
-Summary:	Font::AFM perl module
-Summary(pl):	Modu³ perla Font::AFM
+Summary:	Font::AFM - interface to Adobe Font Metrics files
+Summary(pl):	Font::AFM - interfejs do plików metryk fontów Adobe (AFM)
 Name:		perl-Font-AFM
 Version:	1.19
 Release:	1
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	f72a12a20656c41b29a79c985bd231c9
@@ -19,7 +20,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Font::AFM is an interface to Adobe Font Metrics files.
 
 %description -l pl
-Font::AFM jest interfejsem do plików metryk AFM (Adobe Font Metrics).
+Font::AFM jest interfejsem do plików metryk fontów Adobe (AFM - Adobe
+Font Metrics).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}

@@ -23,8 +23,7 @@ Font::AFM jest interfejsem do plików metryk AFM (Adobe Font Metrics).
 %setup -q -n Font-AFM-%{version}
 
 %build
-CFLAGS="$RPM_OPT_FLAGS" perl Makefile.PL
-make
+perl Makefile.PL
 
 %install
 rm -rf $RPM_BUILD_ROOT

@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Font
-%define	pnam	AFM
+%define		pdir	Font
+%define		pnam	AFM
 Summary:	Font::AFM - interface to Adobe Font Metrics files
 Summary(pl):	Font::AFM - interfejs do plików metryk fontów Adobe (AFM)
 Name:		perl-Font-AFM

@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Font
 %define	pnam	AFM
-Summary:	Font-AFM perl module
-Summary(pl):	Modu³ perla Font-AFM
+Summary:	Font::AFM perl module
+Summary(pl):	Modu³ perla Font::AFM
 Name:		perl-Font-AFM
 Version:	1.18
 Release:	9

@@ -3,7 +3,7 @@ Summary:	Font-AFM perl module
 Summary(pl):	Modu³ perla Font-AFM
 Name:		perl-Font-AFM
 Version:	1.18
-Release:	5
+Release:	6
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl

@@ -6,7 +6,7 @@
 %define		pdir	Font
 %define		pnam	AFM
 Summary:	Font::AFM - interface to Adobe Font Metrics files
-Summary(pl):	Font::AFM - interfejs do plik體 metryk font體 Adobe (AFM)
+Summary(pl.UTF-8):   Font::AFM - interfejs do plik贸w metryk font贸w Adobe (AFM)
 Name:		perl-Font-AFM
 Version:	1.19
 Release:	2
@@ -23,8 +23,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Font::AFM is an interface to Adobe Font Metrics files.
 
-%description -l pl
-Font::AFM jest interfejsem do plik體 metryk font體 Adobe (AFM - Adobe
+%description -l pl.UTF-8
+Font::AFM jest interfejsem do plik贸w metryk font贸w Adobe (AFM - Adobe
 Font Metrics).
 
 %prep

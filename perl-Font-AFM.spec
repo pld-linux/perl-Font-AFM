@@ -6,7 +6,7 @@
 %define		pdir	Font
 %define		pnam	AFM
 Summary:	Font::AFM - interface to Adobe Font Metrics files
-Summary(pl.UTF-8):   Font::AFM - interfejs do plików metryk fontów Adobe (AFM)
+Summary(pl.UTF-8):	Font::AFM - interfejs do plików metryk fontów Adobe (AFM)
 Name:		perl-Font-AFM
 Version:	1.19
 Release:	2

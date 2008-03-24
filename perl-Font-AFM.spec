@@ -13,10 +13,11 @@ Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Font/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	f72a12a20656c41b29a79c985bd231c9
-BuildRequires:	rpm-perlprov >= 4.1-13
+URL:		http://search.cpan.org/dist/Font-AFM/
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -49,7 +50,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
-%dir %{perl_vendorlib}/%{pdir}/Metrics
-%{perl_vendorlib}/%{pdir}/Metrics/*.pm
-%{perl_vendorlib}/%{pdir}/*.pm
+%dir %{perl_vendorlib}/Font/Metrics
+%{perl_vendorlib}/Font/Metrics/*.pm
+%{perl_vendorlib}/Font/*.pm
 %{_mandir}/man3/*

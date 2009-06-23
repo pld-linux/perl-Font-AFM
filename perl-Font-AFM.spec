@@ -8,13 +8,13 @@
 Summary:	Font::AFM - interface to Adobe Font Metrics files
 Summary(pl.UTF-8):	Font::AFM - interfejs do plików metryk fontów Adobe (AFM)
 Name:		perl-Font-AFM
-Version:	1.19
-Release:	3
+Version:	1.20
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Font/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	f72a12a20656c41b29a79c985bd231c9
+# Source0-md5:	b14ecf4dc4edbd63940aa354eb13c499
 URL:		http://search.cpan.org/dist/Font-AFM/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
